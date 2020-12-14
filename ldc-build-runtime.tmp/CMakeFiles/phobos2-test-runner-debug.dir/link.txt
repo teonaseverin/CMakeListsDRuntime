@@ -1,0 +1,1 @@
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc   -rdynamic --gc-sections  objects-unittest-debug/test_runner.o  -o phobos2-test-runner-debug  -Wl,--whole-archive,/home/tock/runtime_thumb/ldc-build-runtime.tmp/lib/libphobos2-ldc-unittest-debug.a,--no-whole-archive lib/libdruntime-ldc-debug.a -lm -lpthread -lrt -ldl 

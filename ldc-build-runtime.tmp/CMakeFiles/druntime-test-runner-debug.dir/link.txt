@@ -1,0 +1,1 @@
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc   -rdynamic --gc-sections  objects-unittest-debug/test_runner.o  -o druntime-test-runner-debug  -Wl,--whole-archive,/home/tock/runtime_thumb/ldc-build-runtime.tmp/lib/libdruntime-ldc-unittest-debug.a,--no-whole-archive -lm -lpthread -lrt -ldl 

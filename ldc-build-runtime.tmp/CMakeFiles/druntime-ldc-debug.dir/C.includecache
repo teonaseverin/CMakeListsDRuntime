@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/ldc-src/runtime/druntime/src/core/stdc/errno.c
+errno.h
+-
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/ldc-src/runtime/druntime/src/ldc/arm_unwind.c
+limits.h
+-
+unwind.h
+-
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/ldc-src/runtime/druntime/src/ldc/msvc.c
+Windows.h
+-
+string.h
+-
+

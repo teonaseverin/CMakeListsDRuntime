@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/ldc-src/runtime/druntime/src/core/threadasm.S
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/ldc-src/runtime/druntime/src/ldc/eh_asm.S
+

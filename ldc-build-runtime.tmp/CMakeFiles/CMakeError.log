@@ -1,0 +1,213 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08fae/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_08fae.dir/build.make CMakeFiles/cmTC_08fae.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1 -quiet -v -iprefix /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/ -isysroot /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o -version -o /tmp/cccS6UAY.s
+GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include"
+ignoring nonexistent directory "/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/include-fixed"
+ignoring duplicate directory "/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include
+ /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed
+ /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
+	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 17f1e178bf798cb7013d26242c30c1f0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o /tmp/cccS6UAY.s
+GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
+COMPILER_PATH=/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/:/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/:/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/:/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C executable cmTC_08fae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fae.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc     -v -rdynamic CMakeFiles/cmTC_08fae.dir/CMakeCCompilerABI.c.o  -o cmTC_08fae 
+Using built-in specs.
+COLLECT_GCC=/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/lto-wrapper
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
+make[2]: *** [CMakeFiles/cmTC_08fae.dir/build.make:87: cmTC_08fae] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_08fae/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+
+
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62efb/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62efb.dir/build.make CMakeFiles/cmTC_62efb.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62efb.dir/CheckIncludeFile.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_62efb.dir/CheckIncludeFile.c.o   -c /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62efb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62efb.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc      -rdynamic CMakeFiles/cmTC_62efb.dir/CheckIncludeFile.c.o  -o cmTC_62efb 
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+make[2]: *** [CMakeFiles/cmTC_62efb.dir/build.make:87: cmTC_62efb] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_62efb/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77638/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_77638.dir/build.make CMakeFiles/cmTC_77638.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77638.dir/CheckIncludeFile.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_77638.dir/CheckIncludeFile.c.o   -c /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77638.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc      -rdynamic CMakeFiles/cmTC_77638.dir/CheckIncludeFile.c.o  -o cmTC_77638 
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+make[2]: *** [CMakeFiles/cmTC_77638.dir/build.make:87: cmTC_77638] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_77638/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_489df/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_489df.dir/build.make CMakeFiles/cmTC_489df.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_489df.dir/CheckIncludeFile.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_489df.dir/CheckIncludeFile.c.o   -c /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_489df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_489df.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc      -rdynamic CMakeFiles/cmTC_489df.dir/CheckIncludeFile.c.o  -o cmTC_489df 
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+make[2]: *** [CMakeFiles/cmTC_489df.dir/build.make:87: cmTC_489df] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_489df/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of void* failed with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9697d/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9697d.dir/build.make CMakeFiles/cmTC_9697d.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9697d.dir/ptr_size.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_9697d.dir/ptr_size.c.o   -c /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CheckTypeSize/ptr_size.c
+Linking C executable cmTC_9697d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9697d.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc      -rdynamic CMakeFiles/cmTC_9697d.dir/ptr_size.c.o  -o cmTC_9697d 
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+make[2]: *** [CMakeFiles/cmTC_9697d.dir/build.make:87: cmTC_9697d] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_9697d/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CheckTypeSize/ptr_size.c:
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(void*))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db9ad/fast && make[1]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_db9ad.dir/build.make CMakeFiles/cmTC_db9ad.dir/build
+make[2]: Entering directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db9ad.dir/CheckIncludeFile.c.o
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_db9ad.dir/CheckIncludeFile.c.o   -c /home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db9ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db9ad.dir/link.txt --verbose=1
+/home/tock/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc      -rdynamic CMakeFiles/cmTC_db9ad.dir/CheckIncludeFile.c.o  -o cmTC_db9ad 
+arm-none-eabi-gcc: error: unrecognized command line option '-rdynamic'
+make[2]: *** [CMakeFiles/cmTC_db9ad.dir/build.make:87: cmTC_db9ad] Error 1
+make[2]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_db9ad/fast] Error 2
+make[1]: Leaving directory '/home/tock/runtime_thumb/ldc-build-runtime.tmp/CMakeFiles/CMakeTmp'
+
+
+
